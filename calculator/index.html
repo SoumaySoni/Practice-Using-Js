@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator card ">
+      <input
+        type="text"
+        class="calculator-screen z-depth-1"
+        value=""
+        disabled
+      />
+      <div class="calculator-keys">
+        <div class="row">
+          <button type="button" class="col-2 btn btn-light" value="7">7</button>
+          <button type="button" class="col-2 btn btn-light" value="8">8</button>
+          <button type="button" class="col-2 btn btn-light" value="9">9</button>
+          <button type="button" class="col-2 btn btn-info" value="/">/</button>
+        </div>
+        <div class="row">
+          <button type="button" class="col-2 btn btn-light" value="4">4</button>
+          <button type="button" class="col-2 btn btn-light" value="5">5</button>
+          <button type="button" class="col-2 btn btn-light" value="6">6</button>
+          <button type="button" class="col-2 btn btn-info" value="*">*</button>
+        </div>
+        <div class="row">
+          <button type="button" class="col-2 btn btn-light" value="1">1</button>
+          <button type="button" class="col-2 btn btn-light" value="2">2</button>
+          <button type="button" class="col-2 btn btn-light" value="3">3</button>
+          <button type="button" class="col-2 btn btn-info" value="-">-</button>
+        </div>
+        <div class="row">
+          <button type="button" class="col-2 btn btn-light" value="0">0</button>
+          <button type="button" class="col-2 btn btn-light" value=".">.</button>
+          <button type="button" class="col-2 btn btn-light" value="=">=</button>
+          <button type="button" class="col-2 btn btn-info" value="+">+</button>
+        </div>
+        <div class="row">
+          <button type="button" class="col-12 btn btn-danger" value="clear">
+            Clear
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
